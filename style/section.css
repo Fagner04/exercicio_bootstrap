@@ -1,0 +1,134 @@
+.background {
+    background: linear-gradient(200deg,
+            #422323,
+            #5b259c00);
+    width: 30%;
+    height: 80%;
+    position: absolute;
+    top: 115px;
+    left: 69%;
+    border-radius: 25px 30px 0 200px;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 10px rgba(255, 255, 255, 0.612);
+
+}
+
+.form {
+    position: absolute;
+    top: 150px;
+    left: 73%;
+    color: rgb(255, 210, 151);
+}
+
+.coll label {
+    position: relative;
+    top: 8px;
+}
+
+.form a {
+    text-decoration: none;
+    color: #00ff1a;
+}
+
+.form a:hover {
+    color: rgb(191, 190, 190);
+    box-shadow: 0 1px #a2b7a4;
+}
+
+.form-check {
+    margin: 5px;
+}
+
+.button2 {
+    position: relative;
+    top: 25px;
+    left: 25%;
+}
+
+.btn-2 {
+    padding: 10px;
+    width: 125px;
+}
+
+.invalid-feedback {
+    color: #ceada8;
+}
+
+.was-validated .form-check-input:valid~.form-check-label {
+    color: rgb(255, 210, 151);
+}
+
+.texto {
+    max-width: 45%;
+}
+
+.texto {
+    background-color: rgba(134, 97, 97, 0.438);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    border-radius: 1px 20px 20px 59px;
+    /* box-shadow: 0 0 0px 10px rgba(149, 87, 87, 0.167); */
+    /* margin: 10%; */
+}
+
+.carousel-content {
+    color: rgb(255, 255, 255);
+}
+
+
+.texto p {
+    color: #353431;
+    font-weight: 700;
+}
+
+.texto .h {
+    color: rgb(235, 75, 43);
+    font-weight: 700;
+    box-shadow: 0 1px 0px red;
+}
+
+.texto .c {
+    color: rgb(57, 143, 255);
+    font-weight: 700;
+    box-shadow: 0 1px 0px rgb(37, 25, 25);
+}
+
+.texto .j {
+    color: rgb(234, 214, 40);
+    font-weight: 700;
+    box-shadow: 0 1px 0px rgb(18, 15, 15);
+}
+
+
+
+
+
+@media screen and (max-width: 1350px) {
+    .background {
+        width: 38%;
+        height: 80%;
+        position: absolute;
+        top: 115px;
+        left: 58%;
+    }
+
+    .form {
+        position: absolute;
+        top: 159px;
+        left: 63%;
+        color: rgb(255, 210, 151);
+    }
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    .form {
+        position: absolute;
+        top: 159px;
+        left: 63%;
+    }
+}

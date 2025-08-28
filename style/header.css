@@ -1,0 +1,241 @@
+.home h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/1200x/b3/47/3e/b3473e153e708db362d199b7339ebd26.jpg);
+}
+
+header {
+    background-color: rgba(97, 46, 46, 0.308);
+    backdrop-filter: blur(10px);
+}
+
+
+.inicio {
+    padding-top: 25px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.inicio li {
+    margin: 0 9px;
+}
+
+header .inicio a {
+    /* color: var(--bs-indigo); */
+    color: aliceblue;
+}
+
+header .m {
+    font-weight: 800;
+    font-size: 25px;
+    box-shadow: 0px 2px rgb(254, 248, 248);
+}
+
+.inicio,
+ul,
+li {
+    display: flex;
+    align-items: center;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.inicio li a {
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.linkss li :hover {
+    box-shadow: 0px 2px 0px rgb(255, 254, 254);
+}
+
+.linkss li a {
+    color: rgb(119, 118, 126);
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links .e {
+    margin: 15px;
+    color: rgb(167, 165, 197);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 750;
+}
+
+.links label {
+    color: aliceblue;
+}
+
+.links .btn {
+    margin-left: 25px;  
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+   
+}
+
+
+
+/* .links .e:hover {
+    background-color: rgb(86, 70, 155);
+    color: rgb(255, 253, 253);
+} */
+
+.btn {
+    border-radius: 10px;
+    border: solid 0px;
+}
+
+.button-mobile {
+    color: aliceblue;
+    font-size: 30px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 0px solid red;
+}
+
+.button-menu,
+#termos2 {
+    display: none;
+}
+
+.col h1 {
+    text-align: center;
+}
+
+
+     
+
+  
+@media screen and (max-width: 1198px) {
+
+    .linkss,
+    .home,
+    .texto,
+    .background,
+    #termos1 {
+        display: none;
+    }
+
+    .fundo {
+        background: linear-gradient(100deg, rgba(150, 128, 128, 0.008), rgba(16, 14, 14, 0.47) 10%);
+        padding: 25px;
+        width: 21em;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+    }
+
+    .btn-2 {
+        margin: 10px 0 0px 25px;
+    }
+    
+    .formulario,
+    .button-menu,
+    #termos2 {
+        display: block;
+    }
+
+
+    form .col {
+        position: absolute;
+        top: -5px;
+        left: -260px;
+        color: rgb(255, 210, 151);
+    }
+
+    .button2 {
+        margin: 290px -210px;
+    }
+
+    .form-control {
+        display: block;
+    }
+
+
+    .inicio {
+        padding: 8px;
+    }
+
+    .links .e:hover {
+    background-color: rgba(86, 70, 155, 0);
+    color: rgb(255, 253, 253);
+}
+
+.form {
+     position: absolute;
+     top: 150px;
+     left: 73%;
+    color: rgb(255, 210, 151);
+}
+
+
+}
+
+
+
+
+/* @media screen and (max-width: 800px) {
+
+
+    .linkss,
+    .formulario,
+    .home,
+    .texto {
+        display: none;
+    }
+
+    .button-menu {
+        display: block;
+    }
+
+  
+
+   
+
+    .form-mobile {
+        background-color: rgba(0, 0, 0, 0.274);
+        backdrop-filter: blur(10px);
+        border-radius: 35px 0 35px 50px;
+        height: 490px;
+        max-width: 100%;
+    }
+
+    .menu-mobile li {
+        margin: 5px;
+    }
+
+    .inicio {
+        padding-top: 10px;
+    }
+
+    header {
+        background-color: rgba(137, 63, 63, 0);
+        backdrop-filter: blur(10px);
+    }
+
+    header .m {
+        font-weight: 800;
+        font-size: 25px;
+        box-shadow: 0px 2px rgba(113, 35, 35, 0);
+    }
+
+    .links .e:hover {
+        background-color: rgba(86, 70, 155, 0);
+        color: rgb(22, 180, 27);
+    }
+
+    form .col {
+        position: absolute;
+        top: -56px;
+        left: -250px;
+        color: rgb(255, 210, 151);
+    }
+
+
+
+} */
