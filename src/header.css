@@ -124,11 +124,11 @@ li {
     }
 
     .fundo {
-        background: linear-gradient(100deg, rgba(150, 128, 128, 0.008), rgba(16, 14, 14, 0.47) 10%);
+        background: linear-gradient(100deg, rgba(150, 128, 128, 0), rgba(5, 5, 5, 0.34) 10%);
         padding: 25px;
-        width: 21em;
+        width: 20em;
         border-radius: 15px;
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(5px);
     }
 
     .btn-2 {
@@ -145,7 +145,7 @@ li {
     form .col {
         position: absolute;
         top: -5px;
-        left: -260px;
+        left: -220px;
         color: rgb(255, 210, 151);
     }
 
