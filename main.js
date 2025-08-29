@@ -11,34 +11,13 @@
     }, false);
   })();
 
-  // const carouselContent = document.querySelector('.carousel-content');
-  //   const messages = document.querySelectorAll('.message');
-  //   const prevButton = document.getElementById('prev');
-  //   const nextButton = document.getElementById('next');
+  
 
-  //   let currentIndex = 0;
 
-  //   function updateCarousel() {
-  //     const offset = -currentIndex * 100;
-  //     carouselContent.style.transform = `translateX(${offset}%)`;
-  //   }
-
-  //   function showNextMessage() {
-  //     currentIndex = (currentIndex + 1) % messages.length;
-  //     updateCarousel();
-  //   }
-
-  //   function showPrevMessage() {
-  //     currentIndex = (currentIndex - 1 + messages.length) % messages.length;
-  //     updateCarousel();
-  //   }
-
-  //   nextButton.addEventListener('click', showNextMessage);
-  //   prevButton.addEventListener('click', showPrevMessage);
-
-  //   // Troca automática de mensagens a cada 3 segundos
-    // setInterval(showNextMessage, 3000);
-
+  setInterval(() => {
+  current = (current + 1) % messages.length;
+  showMessage(current);
+}, 5000); // troca a cada 5 segundos
 
 
   const messages = document.querySelectorAll('.message');
@@ -61,4 +40,17 @@
   });
 
   showMessage(current);
+
+// document.getElementById("alerta").style.display = "block";
+
+  // O código JavaScript que manipula o evento de envio do formulário
+        document.getElementById('form').addEventListener('submit', function(event) {
+            event.preventDefault();  // Previne o envio padrão do formulário
+            document.getElementById('alerta').style.display = 'block';  // Exibe o alerta de sucesso
+
+             // Esconde o alerta após 4 segundos
+             setTimeout(function() {
+                document.getElementById('alerta').style.display = 'none';
+            }, 1700);  // 4000 milissegundos = 4 segundos
+        });
 
