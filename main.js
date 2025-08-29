@@ -11,13 +11,11 @@
     }, false);
   })();
 
-  
-
 
   setInterval(() => {
   current = (current + 1) % messages.length;
   showMessage(current);
-}, 5000); // troca a cada 5 segundos
+}, 4000); // troca a cada 5 segundos
 
 
   const messages = document.querySelectorAll('.message');
@@ -41,16 +39,4 @@
 
   showMessage(current);
 
-// document.getElementById("alerta").style.display = "block";
-
-  // O código JavaScript que manipula o evento de envio do formulário
-        document.getElementById('form').addEventListener('submit', function(event) {
-            event.preventDefault();  // Previne o envio padrão do formulário
-            document.getElementById('alerta').style.display = 'block';  // Exibe o alerta de sucesso
-
-             // Esconde o alerta após 4 segundos
-             setTimeout(function() {
-                document.getElementById('alerta').style.display = 'none';
-            }, 1700);  // 4000 milissegundos = 4 segundos
-        });
 
