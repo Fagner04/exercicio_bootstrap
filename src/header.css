@@ -118,7 +118,8 @@ li {
     .home,
     .texto,
     .background,
-    #termos1 {
+    #termos1,
+    .tel {
         display: none;
     }
 
